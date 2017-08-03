@@ -5,7 +5,9 @@ Check site status
 # How to Install
 
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
-Download whois.exe from https://technet.microsoft.com/ru-ru/sysinternals/whois.aspx and put it to C:/Windows
+Download whois.exe from https://technet.microsoft.com/ru-ru/sysinternals/whois.aspx and put it in C:/Windows
+
+To install dependencies:
 
 ```bash
 pip install -r requirements.txt # alternatively try pip3
