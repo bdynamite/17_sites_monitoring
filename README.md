@@ -15,7 +15,7 @@ pip install -r requirements.txt # alternatively try pip3
 
 # Quick Start
 
-Example of script launch on Windows, Python 3.6:
+Example of script launch on Windows, Python 3.5:
 
 ```#!bash
 
