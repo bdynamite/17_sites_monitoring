@@ -28,7 +28,7 @@ def get_file_path():
 
 def get_urls(path):
     with open(path, 'r') as file_urls:
-        return [x.split() for x in file_urls.readlines()]
+        return [x.strip() for x in file_urls.readlines()]
 
 
 def print_status(site, status_data):
@@ -41,8 +41,8 @@ def main():
     file_path = get_file_path()
     names_list = get_urls(file_path)
     for site_name in names_list:
-        response = load_urls4check(site_name[0])
-        print_status(site_name[0], response)
+        response = load_urls4check(site_name)
+        print_status(site_name, response)
 
 if __name__ == '__main__':
     main()
